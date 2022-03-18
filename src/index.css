@@ -4,7 +4,8 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background: rgb(0,0,0);
+  background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(98,132,151,1) 26%, rgba(4,17,1,1) 51%, rgba(98,132,151,1) 79%);
   color: #fff;
   overflow-x: hidden;
 }
@@ -93,7 +94,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #646464;
 }
 
 .member-page form .card > div {
@@ -116,8 +117,8 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
+  background-color: #edeeee;
+  color: ##8b8f92;
   border: none;
   font-weight: bold;
   font-family: inherit;
@@ -128,7 +129,7 @@ button {
 }
 
 button:hover {
-  background-color: #121212;
+  background-color: #9c9c9c;
 }
 
 button:focus {
